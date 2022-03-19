@@ -1,0 +1,177 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*common css end*/
+body{
+    text-align: center;
+}
+.common{
+    padding-bottom: 50px;
+}
+.common-ver-line {
+    margin: 0 auto 3px;
+    height: 32px;
+}
+h1{
+    margin-bottom: 15px;
+}
+h2, p{
+    margin-bottom: 15px !important;
+}
+p{
+    line-height: 20px;
+}
+.box{
+    padding-bottom: 15px !important;
+}
+/*header css start*/
+.c_dropdown-menu[data-bs-popper] {
+    top: 118%;
+    left: 0;
+    width: 100%;
+}
+/*header css end*/
+/*banner css start*/
+.slider-content {
+    margin: 40px 0;
+}
+/*banner css end*/
+
+/*about css start*/
+.about_l_box{
+   text-align: center;
+}
+/*about css end*/
+/*welcome css start*/
+.welcome .box {
+    margin: 13px 0;
+}
+.welcome .hor-line{
+    margin-bottom: 15px !important;
+}
+.welcome .subtitle {
+    margin-bottom: 32px;
+}
+/*welcome css end*/
+/*price css start*/
+.price .box{
+margin: 15px 0;
+}
+/*price css end*/
+/*footer2 css start*/
+.ft2-text{
+    justify-content: center !important;
+}
+.ft2-menu ul{
+    text-align: center !important;
+}
+.footer .h {
+    height: 67px;
+}
+/*footer2 css end*/
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*common css start*/
+h2, p{
+    margin-bottom: 20px !important;
+}
+/*common css end*/
+
+/*header css start*/
+.c_dropdown-menu[data-bs-popper] {
+    top: 118%;
+    left: 0;
+    width: 100%;
+}
+/*header css end*/
+/*banner css start*/
+.slider-content {
+    margin: 40px 0;
+}
+/*banner css end*/
+/*welcome css start*/
+.welcome .box {
+    margin: 20px 0;
+}
+.welcome .hor-line{
+    margin-bottom: 20px !important;
+}
+/*welcome css end*/
+/*price css start*/
+.price .box{
+margin: 15px 0;
+}
+/*price css end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*common css start*/
+.common-ver-line {
+    margin: 0 auto 3px;
+    height: 32px;
+}
+.common{
+    padding-bottom: 50px;
+}
+h2, p{
+    margin-bottom: 20px !important;
+}
+p{
+    line-height: 20px;
+}
+/*common css end*/
+.box{
+    padding-bottom: 15px !important ;
+}
+.who .box{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/*header css start*/
+.c_dropdown-menu[data-bs-popper] {
+    top: 118%;
+    left: 0;
+    width: 100%;
+}
+/*header css end*/
+/*banner css start*/
+.slider-content {
+    margin: 57px 0;
+}
+/*banner css end*/
+/*welcome css start*/
+.welcome .subtitle {
+    margin-bottom: 60px;
+}
+.welcome .hor-line {
+    margin: 0 auto 15px;
+}
+/*welcome css end*/
+/*price css start*/
+
+/*price css end*/
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	
+	
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+	
+	
+ }
+
+
+/*Extra Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+
+ }
